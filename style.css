@@ -10,7 +10,7 @@ body {
     background: #f0f2f5;
     margin: 0;
     padding: 20px;
-    background-image: url('./image/bg.jpg');
+    background-image: url('./images/dsney.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -67,22 +67,24 @@ h1 {
     text-align: center;
     color: #fff;
     transition: all 200ms ease-in-out;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    box-shadow: rgba(18, 176, 255, 0.4) -5px 5px, rgba(18, 176, 255, 0.4) -10px 10px, rgba(18, 176, 255, 0.4) -15px 15px, rgba(18, 176, 255, 0.4) -20px 20px, rgba(18, 176, 255, 0.4) -25px 25px;
 }
 
 .card img {
     width: 100%;
-    border-radius: 100%;
+    height: 300px;
+    object-fit: contain;
     transition: all 200ms ease-in-out;
 }
 
 .card:hover {
-    box-shadow: rgba(88, 240, 46, 0.4) -5px 5px, rgba(62, 240, 46, 0.3) -10px 10px, rgba(78, 240, 46, 0.2) -15px 15px, rgba(78, 240, 46, 0.1) -20px 20px, rgba(82, 240, 46, 0.05) -25px 25px;
+    box-shadow: rgba(255, 0, 162, 0.4) -5px 5px, rgba(255, 0, 162, 0.4) -10px 10px, rgba(255, 0, 162, 0.4) -15px 15px, rgba(255, 0, 162, 0.4) -20px 20px, rgba(255, 0, 162, 0.4) -25px 25px;
+     
 }
 
 .card:hover h3 {
-    color: #0ce768;
-    text-shadow: 0 2px 8px #0ce768;
+    color: #e70cdc;
+    text-shadow: 0 2px 8px #e70cdc;
 }
 
 .card:hover img {
@@ -107,6 +109,6 @@ h1 {
 }
 
 .card strong {
-    color: #0ce768;
+    color: #ff0084;
     font-weight: bold;
 }
